@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plantel 5 - Colegio de Bachilleres</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1>Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="paquete1.html">Paquete 1</a></li>
+      <li><a href="paquete2.html">Paquete 2</a></li>
+      <li><a href="paquete3.html">Paquete 3</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Bienvenido al Plantel 5</h2>
+    
+    <p>El Colegio de Bachilleres Plantel 5 ofrece una educación de calidad en un entorno de aprendizaje estimulante. Aquí encontrarás información importante para ingresar y solicitar fichas de inscripción.</p>
+    
+    <h3>Información de ingreso</h3>
+    <ul>
+      <li>Requisitos de admisión</li>
+      <li>Documentación necesaria</li>
+      <li>Calendario de inscripción</li>
+    </ul>
+    
+    <h3>Solicitar ficha</h3>
+    <p>Si estás interesado en estudiar en nuestro plantel, puedes solicitar una ficha de inscripción completando el siguiente formulario:</p>
+    
+    <div class="form-container">
+      <form>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <p>Derechos reservados &copy; 2023 Plantel 5 - Colegio de Bachilleres</p>
+  </footer>
+</body>
+</html>
